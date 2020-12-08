@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testy</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="test-config" class="test-config container">
+        <div class="input-set">
+            <div>Ilość pytań: </div>
+            <label for="amount-10" class="amount-label">
+                <input type="radio" id="amount-10" name="amount" value="10" required checked>
+                10
+            </label>
+            <label for="amount-20" class="amount-label">
+                <input type="radio" id="amount-20" name="amount" value="20" required>
+                20
+            </label>
+            <label for="amount-30" class="amount-label">
+                <input type="radio" id="amount-30" name="amount" value="30" required>
+                30
+            </label>
+        </div>
+        <div class="input-set">
+            <label for="category">Kategoria: </label>
+            <select name="category" id="category">
+                <option value="A">A</option>
+                <option value="B" selected>B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+        </div>
+        <input type="submit" value="Rozwiązuj" class="cta">
+    </form>
+    <div id="test-section" class="container">
+        <div id="current-question"></div>
+        <div id="score" class="score"></div>
+        <button id="restart-button" class="hidden">Rozwiąż kolejny test</button>
+    </div>
+</body>
+
+</html>

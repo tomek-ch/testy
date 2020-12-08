@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button, [type="submit"] {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.cta {
+    background-color: #1a73e8;
+    color: white;
+}
+
+button:hover {
+    background-color: #bbb;
+}
+
+.hidden {
+    display: none;
+}
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+
+.test-config {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1.5em;
+}
+
+select {
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active-thumbnail {
+    box-shadow: 0 0 0 2px #5bc0de;
+}
+
+.answered-thumbnail {
+    background-color: #f0ad4e;
+}
+
+.answers {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.next-btn {
+    margin-left: 0.5em;
+}
+
+.answer {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.answer:hover {
+    background-color: #bbb;
+}
+
+.right {
+    background-color: #5cb85c !important;
+}
+
+.wrong {
+    background-color:#d9534f !important;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.input-set {
+    margin: 1em 0;
+}
+
+.score {
+    margin: 1em 0;
+}
+
+.amount-label {
+    margin-right: 1em;
+}
